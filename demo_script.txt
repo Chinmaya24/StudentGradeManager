@@ -1,0 +1,99 @@
+DEMO SCRIPT FOR STUDENT GRADE MANAGER
+=====================================
+
+This script shows sample inputs to test all features of the program.
+
+STEP 1: Add Students
+--------------------
+1 (Add New Student)
+S001 (Student ID)
+John Doe (Student Name)
+18 (Age)
+
+1 (Add New Student)
+S002 (Student ID)
+Jane Smith (Student Name)
+19 (Age)
+
+1 (Add New Student)
+S003 (Student ID)
+Mike Johnson (Student Name)
+20 (Age)
+
+STEP 2: Add Grades
+------------------
+2 (Add/Update Grades)
+S001 (Student ID)
+4 (Number of subjects)
+Math (Subject 1)
+85.5 (Grade for Math)
+Science (Subject 2)
+92.0 (Grade for Science)
+English (Subject 3)
+78.5 (Grade for English)
+History (Subject 4)
+88.0 (Grade for History)
+
+2 (Add/Update Grades)
+S002 (Student ID)
+3 (Number of subjects)
+Math (Subject 1)
+95.0 (Grade for Math)
+Physics (Subject 2)
+89.5 (Grade for Physics)
+Chemistry (Subject 3)
+91.0 (Grade for Chemistry)
+
+2 (Add/Update Grades)
+S003 (Student ID)
+2 (Number of subjects)
+Literature (Subject 1)
+82.0 (Grade for Literature)
+Art (Subject 2)
+88.5 (Grade for Art)
+
+STEP 3: View All Students
+-------------------------
+3 (View All Students)
+
+STEP 4: Calculate Statistics
+---------------------------
+4 (Calculate Statistics)
+
+STEP 5: Search Students
+----------------------
+5 (Search Student)
+1 (Search by ID)
+S001 (Enter ID)
+
+5 (Search Student)
+2 (Search by Name)
+John (Enter part of name)
+
+STEP 6: Generate Report
+----------------------
+6 (Generate Summary Report)
+
+STEP 7: Exit
+------------
+7 (Exit)
+
+EXPECTED RESULTS:
+================
+- 3 students added successfully
+- Grades calculated and stored
+- Statistics showing:
+  * Overall average around 87-88%
+  * Grade distribution (A, B, C ranges)
+  * Highest and lowest scores
+- Search functionality working
+- Comprehensive report generated
+- Program exits cleanly
+
+TIPS:
+=====
+- Follow the prompts exactly
+- Enter numbers when asked for choices
+- Enter text when asked for names/IDs
+- Use decimal points for grades (e.g., 85.5)
+- The program validates all inputs
